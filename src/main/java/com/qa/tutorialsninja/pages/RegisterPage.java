@@ -54,7 +54,7 @@ public class RegisterPage extends BasePage {
 			elementUtil.doClick(subScriptionNo);
 		}
 		else {
-			System.out.println("please pass only Yes or No for subscription ");
+			System.out.println("wrong entry! please pass only Yes or No for subscription ");
 		}
 		
 		elementUtil.doClick(agreeCheckBox);
