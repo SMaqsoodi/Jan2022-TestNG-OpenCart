@@ -12,14 +12,14 @@
   
 	<test verbose="2" name="LoginPage Test_Chrome_92" thread-count="3" parallel="methods"> <!-- thread counts and parallel applies on the methods listed under test -->
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="92.0" />
+		<parameter name="version" value="92" />
 		<classes>
 	 	 	<class name="com.qa.tutorialninja.tests.LoginPageTest"/>
 	    </classes>
 	</test> 
 	<test verbose="2" name="LoginPage Test_Chrome_64" thread-count="3" parallel="methods"> <!-- thread counts and parallel applies on the methods listed under test -->
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="64.0" />
+		<parameter name="version" value="64" />
 		<classes>
 	 	 	<class name="com.qa.tutorialninja.tests.LoginPageTest"/>
 	    </classes>
@@ -27,14 +27,14 @@
 	
 	<test verbose="2" name="AccountPage Test_Chrome_92" thread-count="3" parallel="methods"> 
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="92.0" />
+		<parameter name="version" value="92" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.AccountPageTest"/>
 	    </classes>
 	</test>
 	<test verbose="2" name="AccountPage Test_Chrome_64" thread-count="3" parallel="methods"> 
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="64.0" />
+		<parameter name="version" value="64" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.AccountPageTest"/>
 	    </classes>
@@ -42,14 +42,14 @@
 	
 	<test verbose="2" name="ProductInfoPage Test_Chrome_64" thread-count="3"> <!-- parallel="methods"  --> 
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="64.0" />
+		<parameter name="version" value="64" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.ProductInfoPageTest"/>
 	    </classes>
 	</test> 
 	<test verbose="2" name="ProductInfoPage Test_Chrome_92" thread-count="3"> <!-- parallel="methods"  --> 
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="92.0" />
+		<parameter name="version" value="92" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.ProductInfoPageTest"/>
 	    </classes>
