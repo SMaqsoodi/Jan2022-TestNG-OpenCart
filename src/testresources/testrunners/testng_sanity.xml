@@ -12,7 +12,7 @@
   
 	<test verbose="2" name="LoginPage Test_Chrome_92" thread-count="3" parallel="methods"> <!-- thread counts and parallel applies on the methods listed under test -->
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="92" />
+		<parameter name="version" value="" />
 		<classes>
 	 	 	<class name="com.qa.tutorialninja.tests.LoginPageTest"/>
 	    </classes>
@@ -21,7 +21,7 @@
 	
 	<test verbose="2" name="AccountPage Test_FF_95" thread-count="3" parallel="methods"> 
 		<parameter name="browser" value="firefox" />
-		<parameter name="version" value="95" />
+		<parameter name="version" value="" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.AccountPageTest"/>
 	    </classes>
@@ -30,7 +30,7 @@
 	
 	<test verbose="2" name="ProductInfoPage Test_Chrome_64" thread-count="3"> <!-- parallel="methods"  --> 
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="64" />
+		<parameter name="version" value="" />
 		<classes>
 	  		<class name="com.qa.tutorialninja.tests.ProductInfoPageTest"/>
 	    </classes>
