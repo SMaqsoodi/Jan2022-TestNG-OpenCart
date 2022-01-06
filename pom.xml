@@ -113,7 +113,7 @@
 			   <reuseForks>true</reuseForks>
 			   <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 			   <suiteXmlFiles>
-			   		<suiteXmlFile>src/testresources/testrunners/testng_firefox.xml</suiteXmlFile>
+			   		<suiteXmlFile>src/testresources/testrunners/testng_chrome.xml</suiteXmlFile>
 			   </suiteXmlFiles>
                
                 <argLine>
